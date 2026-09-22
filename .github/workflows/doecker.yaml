@@ -12,7 +12,6 @@ jobs:
         # action to use hadolint for linting the Dockerfile
       - name: Lint Dockerfile
         uses: hadolint/hadolint-action@v3.5.0
-
 build:
     name: Build Image
     runs-on: ubuntu-latest
